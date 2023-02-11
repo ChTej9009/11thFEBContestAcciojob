@@ -16,6 +16,8 @@ function PrintStudentsbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
+    arr.push({id: 4, name: "Doe", age: "20", marks: 89});
+  console.log(arr);
 }
 
 function removeFailedStudent() {
@@ -24,4 +26,9 @@ function removeFailedStudent() {
 
 function concatenateArray() {
   //Write your code here, just console.log
+   console.log( arr.concat([
+    { id: 5, name: "Dofe", age: "15", marks: 90 },
+    { id: 6, name: "dany", age: "25", marks: 88 },
+    { id: 7, name: "nari", age: "29", marks: 75 },
+  ]) );
 }
